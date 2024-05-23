@@ -1,5 +1,6 @@
 package entities;
 
+import enums.Dipartimento;
 import interfaces.Checkers;
 
 import java.time.LocalDateTime;
@@ -18,16 +19,8 @@ public abstract class Dipendente implements Checkers {
         this.stipendio = calculateSalary();
     }
 
-    public int getMatricola() {
-        return matricola;
-    }
-
     public double getStipendio() {
         return stipendio;
-    }
-
-    public Dipartimento getDipartimento() {
-        return dipartimento;
     }
 
     public abstract double calculateSalary();

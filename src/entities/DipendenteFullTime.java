@@ -1,5 +1,7 @@
 package entities;
 
+import enums.Dipartimento;
+
 import java.util.Random;
 
 public class DipendenteFullTime extends Dipendente {

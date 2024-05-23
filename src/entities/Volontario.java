@@ -24,7 +24,7 @@ public class Volontario implements Checkers {
     @Override
     public void checkin() {
         DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("HH:mm:ss dd/MM/yyyy");
-        System.out.println("Matricola: " + this.name + "  Inizio servizio: " + LocalDateTime.now().format(timeFormatter));
+        System.out.println("Nome: " + this.name + "  Inizio servizio: " + LocalDateTime.now().format(timeFormatter));
     }
 
     @Override
